@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	font font-family: sans-serif;
+}	
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url("https://source.unsplash.com/WLUHO9A_xik/1600x900");
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	transition: 0.6 ease;
+
+}
+ul{
+   
+   float: right;
+   margin-top: 25px;
+}
+ul li{
+	display:inline-block;
+	border: 1px solid transparent;
+	border: solid 1px;
+	padding: 5px 10px;
+	color: white;
+	
+}	
+ul li a:hover{
+	background-color: #fff;
+	color:000;
+
+}
+ul li .active a{
+	background-color: #fff;
+	color:000;
+}
+
+
+header h4{
+	color:#fff;
+}
+.logo h2{
+	float:left;
+}
+.title{
+	position:absolute;
+	top:30%;
+	left: 50%;
+	transform:translate(-50%,50%);
+}
+.title h1{
+	color:#fff;
+	text-align: center;
+}
+.title h2{
+	text-align: center;
+}
+main{
+	text-align: center;
+	margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: yellow;
+  color:black;
+}
